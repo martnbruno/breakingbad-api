@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 
 const ContenedorFrase = styled.div`
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 0.5rem;
   background-color: #fff;
   max-width: 800px;
@@ -16,11 +16,12 @@ const ContenedorFrase = styled.div`
     text-align: justify;
     position: relative;
     font-style: italic;
+    font-size: 0.9em;
   }
 
   p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.6rem;
+    font-size: .7rem;
     text-align: right;
     color: #666;
     margin-top: 2rem;
